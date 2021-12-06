@@ -1,0 +1,25 @@
+.logo {
+  margin-right: 93px;
+
+  color: $accent-color;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  .logo--black {
+    color: #000000;
+  }
+}
+.logo--footer {
+  @extend .logo;
+  display: block;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.logo--white {
+  color: $primary-white-color;
+}
