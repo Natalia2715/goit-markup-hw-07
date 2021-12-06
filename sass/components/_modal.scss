@@ -117,7 +117,7 @@
   appearance: none;
 
   &:checked + .agreement__icon {
-    background-image: url(../../images/icon-check.svg);
+    background-image: url(../images/icon-check.svg);
     background-size: contain;
     background-color: $accent-color;
     background-origin: border-box;
